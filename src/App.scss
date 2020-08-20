@@ -1,0 +1,11 @@
+.principalDiv {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 90px 1fr;
+
+  &_cl:nth-child(1) {
+    display: flex;
+    background-color: #1c2833;
+    min-height: 10%;
+  }
+}
